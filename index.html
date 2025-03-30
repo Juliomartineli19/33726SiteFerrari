@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari na F1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ferrari na Fórmula 1</h1>
+    </header>
+
+    <section>
+        <h2>🏎️ História da Ferrari na F1</h2>
+        <p>A Ferrari é a equipe mais icônica da Fórmula 1, com uma história que remonta à sua estreia em 1950. A equipe italiana detém recordes de títulos e vitórias, sendo sinônimo de paixão e tradição no automobilismo.</p>
+    </section>
+
+    <section>
+        <h2>🏆 Títulos Conquistados</h2>
+        <ul>
+            <li>1952 - Alberto Ascari</li>
+            <li>1961 - Phil Hill</li>
+            <li>1975 - Niki Lauda</li>
+            <li>2000 - Michael Schumacher</li>
+            <li>2007 - Kimi Räikkönen</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>⭐ Pilotos Icônicos</h2>
+        <div class="pilotos-container">
+            <div class="piloto" onclick="mostrarInfo('schumacher')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Michael_Schumacher_2010.jpg" alt="Michael Schumacher">
+                <p>Michael Schumacher</p>
+            </div>
+            <div class="piloto" onclick="mostrarInfo('lauda')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Niki_Lauda_2011.jpg" alt="Niki Lauda">
+                <p>Niki Lauda</p>
+            </div>
+            <div class="piloto" onclick="mostrarInfo('raikkonen')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Kimi_Raikkonen_2018.jpg" alt="Kimi Räikkönen">
+                <p>Kimi Räikkönen</p>
+            </div>
+        </div>
+        <div id="info-piloto"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
